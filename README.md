@@ -2,6 +2,7 @@
 str组件用于处理和字符相关的功能
 
 [TOC]
+
 ####创建实例对象
 ```
 $obj = new \houdunwang\str\Str();
