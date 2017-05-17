@@ -1,7 +1,6 @@
 {
   "name": "houdunwang/str",
   "description": "str组件用于处理和字符相关的功能",
-  "type": "project",
   "keywords": [
     "houdunwang",
     "hdphp",
