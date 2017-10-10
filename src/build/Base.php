@@ -191,11 +191,6 @@ class Base
     //汉字转拼音
     public function pinyin($string, $charset = 'UTF-8')
     {
-        $charset = is_null($charset) ? preg_replace(
-            "/utf-8|utf8/i",
-            "UTF-8",
-            C("CHARSET")
-        ) : $charset;
         $_DataKey
                  = "a|ai|an|ang|ao|ba|bai|ban|bang|bao|bei|ben|beng|bi|bian|biao|bie|bin|bing|bo|bu|ca|cai|can|cang|cao|ce|ceng|cha"
             ."|chai|chan|chang|chao|che|chen|cheng|chi|chong|chou|chu|chuai|chuan|chuang|chui|chun|chuo|ci|cong|cou|cu|"
